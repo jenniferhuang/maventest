@@ -34,6 +34,14 @@
     </plugin> 
     <plugin>
       <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-javadoc-plugin</artifactId>
+      <configuration>
+        <charset>UTF-8</charset>
+        <endoding>UTF-8</endoding>
+      </configuration>
+    </plugin>
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
       <artifactId>maven-shade-plugin</artifactId>
       <version>1.2.1</version>
       <executions>
