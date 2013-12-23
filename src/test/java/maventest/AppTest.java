@@ -9,7 +9,7 @@ public class AppTest {
 	public void testSayHello(){
 		App app=new App();
 		String result=app.sayHello();
-		assertEquals("Hllo World!",result);
+		assertEquals("Hello World!",result);
 	}
 
 }
