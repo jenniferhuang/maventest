@@ -8,7 +8,7 @@
   <packaging>jar</packaging>
 
   <name>maventest</name>
-  <url>http://search.maven.org</url>
+  <url>http://search.maven.org/</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -39,6 +39,17 @@
       <configuration>
         <charset>UTF-8</charset>
         <endoding>UTF-8</endoding>
+      </configuration>
+    </plugin>
+    <plugin>
+      <groupId>org.codehaus.mojo</groupId>
+      <artifactId>cobertura-maven-plugin</artifactId>
+      <version>2.5.1</version>
+      <configuration>
+      <formats>
+       <format>html</format>
+       <format>xml</format>
+      </formats>
       </configuration>
     </plugin>
     <plugin>

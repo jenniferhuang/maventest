@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.006" errors="0" skipped="0" tests="1" name="maventest.AppTest">
+<testsuite failures="0" time="0.024" errors="0" skipped="0" tests="1" name="maventest.AppTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="D:\Program Files\java\jdk1.7.0_04\jre\bin"/>
@@ -27,6 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
+    <property name="net.sourceforge.cobertura.datafile" value="D:\WorkSpace\maventest\target\cobertura\cobertura.ser"/>
     <property name="classworlds.conf" value="D:\Program Files\Maven\apache-maven-3.1.0\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="GBK"/>
     <property name="java.library.path" value="D:\Program Files\java\jdk1.7.0_04\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Program Files\java\jdk1.7.0_04\bin;D:\Program Files\java\jdk1.7.0_04\jre\bin;D:\Program Files\Maven\apache-maven-3.1.0\bin;D:\Program Files\Git\bin;C:\Users\jennifer.huang\AppData\Local\Mozilla Firefox;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;D:\Program Files\java\jdk1.7.0_04\bin;D:\Program Files\java\jdk1.7.0_04\jre\bin;C:\Users\jennifer.huang\AppData\Local\Mozilla Firefox;D:\Maven\apache-maven-3.1.0\bin;.;."/>
@@ -45,7 +46,7 @@
     <property name="java.vm.specification.version" value="1.7"/>
     <property name="sun.arch.data.model" value="32"/>
     <property name="java.home" value="D:\Program Files\java\jdk1.7.0_04\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher cobertura:cobertura"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="user.language.format" value="zh"/>
@@ -60,8 +61,9 @@
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="project.build.outputDirectory" value="D:\WorkSpace\maventest\target\generated-classes\cobertura"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase time="0.006" classname="maventest.AppTest" name="testSayHello"/>
+  <testcase time="0.024" classname="maventest.AppTest" name="testSayHello"/>
 </testsuite>
